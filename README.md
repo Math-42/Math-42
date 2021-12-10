@@ -35,7 +35,7 @@ class About: public Me {
   }
 
   auto getFutureGoal() -> string {
-    return 'Learn more about compilers and computers architecture';
+    return 'Learn more about compilers and computer architecture';
   }
 }
 ```
