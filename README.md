@@ -3,7 +3,7 @@
 
 class About: public Me {
  public:
-  auto getCurrentWorkplace() -> std::string{
+  auto getCurrentWorkplace() -> std::string {
     return "Zenith Aerospace";
   }
 
@@ -15,7 +15,7 @@ class About: public Me {
     }
   }
 
-  auto getDailyKnowledge() -> std::vector<std::string>{
+  auto getDailyKnowledge() -> std::vector<std::string> {
     return [
       "C/C++",
       "Data structures",
@@ -28,7 +28,7 @@ class About: public Me {
     ];
   }
 
-  auto getMyLinks() -> std::vector<std::string>{
+  auto getMyLinks() -> std::vector<std::string> {
     return [
       "https://www.linkedin.com/in/matheus-vieira-g/"
     ];
