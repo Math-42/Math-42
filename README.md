@@ -22,7 +22,8 @@ class About: public Me {
       "Linux",
       "JavaScript",
       "IPC",
-      "Vim",
+      "Nix",
+      "Emacs",
       "Git",
       "Software Engineering"
     ];
@@ -35,7 +36,7 @@ class About: public Me {
   }
 
   auto getFutureGoal() -> string {
-    return 'Learn more about compilers and computer architecture';
+    return 'Learn more about compilers and DevOps';
   }
 }
 ```
