@@ -20,7 +20,7 @@ class About: public Me {
       "C/C++",
       "Data structures",
       "Linux",
-      "JavaScript",
+      "Rust",
       "IPC",
       "Nix",
       "Emacs",
@@ -36,7 +36,7 @@ class About: public Me {
   }
 
   auto getFutureGoal() -> string {
-    return 'Learn more about compilers and DevOps';
+    return 'Learn more about Linux, Nix and DevOps';
   }
 }
 ```
